@@ -1,0 +1,13 @@
+h1,h2{
+    border:10px dashed black;
+}
+p{
+    border:10px dotted orange;
+
+}
+img{
+    border-top: 10px solid red;
+    border-right: 10px solid yellow;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid green;
+}
