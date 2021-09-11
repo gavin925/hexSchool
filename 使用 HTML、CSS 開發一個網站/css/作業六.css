@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+.wrap{
+    margin: 0 auto; 
+}
 .header{
     background-color: #f6f6f6;
 }
@@ -86,5 +89,8 @@ table {
 .menu li a{
     color: #42d3a9;;
     text-decoration: none;
-    margin: 20px;
+    padding: 20px;
 }
+.menu a:hover {
+    text-decoration: underline;
+  }
