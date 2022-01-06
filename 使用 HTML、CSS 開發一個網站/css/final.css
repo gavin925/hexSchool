@@ -46,3 +46,149 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.wrap{
+	width: 1002px;
+	
+}
+.header{
+	margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 6px 0px;
+    font-size: 16px;
+}
+.header ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.header  li a{
+	text-decoration: none;
+}
+.fb{
+	color: #4460a0;
+}
+.twitter{
+	color: #00aaec;
+}
+.banner{
+	background-image: url(../images/banner_1.png);
+	width: 1002px;
+	height: 346px;
+}
+.banner p{
+	padding: 168px 0;
+	color: white;
+	text-align: left;
+	font-size: 24px;
+}
+.icon{margin-top: 10px;}
+.icon ul{
+	display: flex;
+	justify-content: space-around;
+}
+.icon li{
+	padding: 2px 2px;
+	border-radius: 0 0 5px 5px;
+    border: solid rgb(243, 238, 238) 2px;
+}
+.icon li h2{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.icon p{
+	text-align: center;
+}
+.jQuery p{
+	padding-left: 20px;
+	text-align:left;	
+}
+.jQuery ul {
+	padding-left: 40px;
+    list-style: disc;
+	flex-direction: column;
+}
+.jQuery li{
+	border: none;
+}
+.title{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 25px;
+}
+.tb{
+	margin: 20px;
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 50px;
+}
+.first{
+	background: rgb(225, 225, 225);
+}
+.td th, 
+.tb td{
+	border-top: 1px solid rgb(243, 238, 238);
+    border-bottom: 1px solid rgb(243, 238, 238);
+    padding-left: 30px;
+    text-align: left;
+}
+
+.tb th {
+    padding: 15px 0px;
+    font-weight: bold;
+    padding-left: 30px;
+
+}
+
+.tb td {
+    padding-right: 50px;
+	color: black;
+}
+
+.tb .special {
+    color: green;
+}
+.connect{
+	background: linear-gradient(#00644b, #009771);
+    width: 1024px;
+    height: 380px;
+    margin-bottom: 15px;
+}
+.connect h2{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	padding-bottom: 25px;
+}
+.link{
+	display: flex;
+}
+.issue{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.imformation label{
+	color: white;
+}
+.imformation input{
+	width: 450px;
+}
+.submit  {
+	padding-left: 400px;
+	padding-top: 25px;
+}
+.submit input{
+	width: 50px;
+	background-color: rgb(37, 214, 141);
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.footer a{
+	color: red;
+}
