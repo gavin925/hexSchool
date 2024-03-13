@@ -52,12 +52,13 @@ table {
 	width: 1002px;	
 }
 .header{
-    background-color: #f6f6f6;
-    padding: 6px 0px;
+	background-color: #f6f6f6;
+    padding: 6px 0px;   
 }
 .header ul{
 	display: flex;
 	justify-content: flex-end;
+	
 }
 .header  li a{
 	display: block;
@@ -65,21 +66,26 @@ table {
 	text-decoration: none;
 }
 .menu{
+	height: 100px;
 	display: flex;
 	justify-content: space-between;
 }
-.menu img{
-	padding: 5px;
+.menu>img{
+	padding:25px 5px;
 }
-.menu ul{
+.menu>ul{
 	padding-top: 20px;
 	display: flex;
 	justify-content: flex-start;
 }
-.menu ul li a{
-	padding-left: 26px;
+.menu>ul>li>a,.dropdown-open>li>a{
+	text-align: center;
+	padding: 0 26px;
 	color: #00251A;
 	text-decoration: none;
+}
+.dropdown-open{
+	display: none;
 }
 .fb{
 	color: #4460a0;
@@ -88,19 +94,9 @@ table {
 .twitter{
 	color: #00aaec;
 }
-.banner{
-	background: rgba(0,0,0,0.5);
-	display: flex; 
-	align-items: center;
-	background-image: url(../images/banner_1.png);
-	width: 1002px;
-	height: 346px;
-}
-.banner h2{
-	padding: 168px 0;
-	color: white;
-	text-align: left;
-	font-size: 24px;
+.swiper {
+  width: 618px;
+  height: 246px;
 }
 .icon{margin-top: 10px;}
 .icon>ul{
@@ -132,7 +128,6 @@ table {
 	margin-top: 50px;
 	text-align: center;
 	font-weight: bold;
-	font-size: 36px;
 	margin-bottom: 25px;
 }
 .tb{
@@ -169,8 +164,7 @@ table {
 }
 .connect{
 	background: linear-gradient(#00644b, #009771);
-    width: 1024px;
-    height: 380px;
+	padding: 25px;
     margin-bottom: 15px;
 }
 .connect h2{
@@ -194,8 +188,10 @@ textarea{
 .imformation label{
 	color: white;
 }
+
 .imformation input{
 	width: 450px;
+	margin: 5px 0;
 }
 .submit{
 	display: flex; 
@@ -214,4 +210,13 @@ textarea{
 }
 .footer a{
 	color: red;
+}
+#gotop{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: none;
+}
+a:hover{
+	background-color: aquamarine;
 }
