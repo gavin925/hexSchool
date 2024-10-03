@@ -1,10 +1,10 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-$('.dropdown').click(function(event){
+$('.dropdown > li > a').click(function(event){
   event.preventDefault();
-  $('.dropdown').toggleClass('active');
-  $('.dropdown-open').slideToggle();
+  $(this).parent().siblings().find('ul').slideUp();
+  $(this).parent().find('ul').slideToggle();
 });
 
 const swiper = new Swiper('.swiper', {
