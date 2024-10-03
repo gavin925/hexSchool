@@ -33,7 +33,7 @@ lightbox.option({
       'wrapAround': true
     });
 function showBtnCondition() {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 100) {
         $('#gotop').fadeIn();
           } else {
            $('#gotop').fadeOut();
@@ -41,3 +41,10 @@ function showBtnCondition() {
        }
    $(window).scroll(showBtnCondition);
   });
+
+  $('#gotop').click(function(event){
+    event.preventDefault();
+    $('html,body').animate({
+      scrollTop:0
+    },1000);
+  })
