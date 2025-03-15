@@ -1,0 +1,356 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*css reset*/
+
+
+
+.wrap{
+  margin: 0 auto;
+  width: 1024px;
+  margin-top: 10px;
+  background: #FAFAFA;
+}
+.header{
+    background-image: url(../img/img-headerShape.png);
+    width: 1024px;
+    height: 399px;
+    display: flex;
+}
+.name{
+  display: flex;
+  flex-direction:column;/*主軸為上下方向*/
+  padding: 0 136px;
+  padding-top: 125px;
+  text-align: center;
+}
+.name img{
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+}
+.name h1{
+  font-size: 42px;
+  padding-top: 11px;
+  font-family: Microsoft JhengHei;
+}
+.name span{
+  font-size: 14px;
+  padding: 9px 0;
+  font-family: Microsoft JhengHei;
+}
+.contact{
+  display: flex;
+  flex-direction:column;/*主軸為上下方向*/
+  padding-top: 125px;
+}
+.contact a{
+  text-decoration: none;
+}
+.contact img{
+  padding: 12px 0;
+  vertical-align: middle;/*使圖片及文字x-hight中線對齊*/
+}
+.contact span{
+  margin-left: 12px;
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  font-family: Microsoft JhengHei;
+}
+.contact span:hover{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*Modern*/
+
+.modern{
+  padding-top: 130px;
+}
+.modern h2{
+  font-size: 24px;
+  font-family: Microsoft JhengHei;
+  color: #1736DC;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.web{
+  display: flex;
+  margin-left: 55px;
+}
+.web-item{
+  margin: 0 8px;
+  background: white;
+  border-radius: 6px;/*圓弧*/
+}
+.web-item:hover{
+  border-left: 2px solid #f1f1f1;
+  border-right: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  box-shadow: 0 1px 4px 0 aliceblue;
+}
+.web-item img{
+  padding: 25px 97px;
+}
+.web-item h3{
+  font-family: Microsoft JhengHei;
+  font-size: 18px;
+  color: #4A4A4A;
+  text-align: center;
+  padding-bottom: 26px;
+}
+.web-item ul{
+  font-family: Microsoft JhengHei;
+  font-size: 12px;
+  color: #4A4A4A;
+  list-style-type: disc;/*恢復ul編號*/
+  list-style-position: inside;
+  margin-left: 43px;
+  margin-bottom: 27px;
+  line-height: 15px;/*行間*/
+}
+
+
+/*Experience*/
+.experience{
+  position: relative;
+}
+.experience h2{
+  margin-top: 56px;
+  margin-bottom: 48px;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  font-size: 24px;
+  color: #1736DC;
+  text-align: center;
+}
+/*線*/
+.line-y{
+  margin: 0 auto;
+  width: 2px;
+  height: 513.6px;
+  background: #D8D8D8;
+}
+.line-x{
+  margin: 0 auto;
+  width: 46px;
+  height: 4px;
+  background: #D8D8D8;
+}
+/*點*/
+.dot-start{
+  position: absolute;
+  left: 496px;
+  top: 48px;
+}
+.dot-end{
+  position: absolute;
+  left: 500px;
+}
+.dot-end1{
+  top: 133px;
+}
+.dot-end2{
+  top: 276px;
+}
+.dot-end3{
+  top: 419px;
+}
+/*introduce介紹*/
+.data{
+  background: white;
+  border: 1px solid #FB56BF;
+  border-radius: 10px;
+  padding-left: 12px;
+  padding-top: 8px;
+}
+.data span,.data h3,.data .company{
+  font-family: Microsoft JhengHei;
+  font-size: 12px;
+  letter-spacing: 0.53px;/*字體間的距離*/
+  line-height: 30px;
+}
+.data span{  
+  color: #4A4A4A;
+}
+.data h3{
+  color: #8A1737;
+  font-weight: bold;
+}
+.data .company{
+  color: #4A4A4A;
+}
+.data p{
+  font-family: Microsoft JhengHei;
+  font-size: 10px;
+  color: #9B9B9B;
+  letter-spacing: 0.44px;
+  line-height: 18px;
+}
+/*introduce介紹:position*/
+.data{
+  position: absolute;
+  width: 260px;
+  height: 136px;
+}
+.data1{
+  top: 131px;
+  left: 537px;
+}
+.data2{
+  top: 274px;
+  left: 215px;
+}
+.data3{
+  top: 417px;
+  left: 537px;
+}
+
+
+/*Works 作品*/
+.works h2{
+  padding-top: 56px;
+  padding-bottom: 46px;
+  text-align: center;
+  font-size: 24px;
+  color: #FB56BF;
+  font-family: Microsoft JhengHei;
+}
+.works ul{
+  display: flex;
+}
+.protfolio{
+  background: white;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+.protfolio:hover{
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.40);
+  border-radius: 4px;
+}
+.protfolio1{
+  margin-left: 70px;
+}
+/*work img*/
+.protfolio1 img{
+  padding:36px 0px 0px 77px; 
+  background: #FDB4E3;
+  border-radius: 4px;
+}
+.protfolio2 img,.protfolio3 img{
+  padding: 35px 102px;
+  border-radius: 4px;
+}
+.protfolio2 img{
+  background: #424242;
+}
+.protfolio3 img{
+  background: #8AD7FA;
+}
+.protfolio h3{
+  font-size: 14px;
+  color: black;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  padding-top: 9px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+}
+.protfolio p{
+  font-size: 14px;
+  color: #4A4A4A;
+  font-family: Microsoft JhengHei;
+  padding-bottom: 10px;
+  padding-left: 8px;
+}
+
+
+/*about*/
+.about h2{
+  padding-top: 49px;
+  padding-bottom: 54px;
+  text-align: center;
+  font-size: 24px;
+  color: #FB56BF;
+  font-family: Microsoft JhengHei;
+}
+.about img{
+  width: 260px;
+  height: 335px;
+  padding-left: 180px;
+  padding-right: 20px;
+}
+.about p{
+  float: right;
+  width: 442px;
+  font-family: Microsoft JhengHei;
+  font-size: 14px;
+  text-align: left;
+  color: #4A4A4A;
+  line-height: 26px;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+/*footer*/
+.footer{
+  background-image: url(../img/img-Looper-bg.png);
+  width: 1024px;
+  height: 87px;
+  margin-top: 60px;
+}
+.footer p{
+  font-family: Microsoft JhengHei;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 40px;
+}
