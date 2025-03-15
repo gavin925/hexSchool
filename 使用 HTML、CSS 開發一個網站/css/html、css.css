@@ -1,0 +1,217 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	margin: 0 auto;
+	width: 1002px;	
+}
+.header{
+    background-color: #f6f6f6;
+    padding: 6px 0px;
+}
+.header ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.header  li a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+}
+.menu img{
+	padding: 5px;
+}
+.menu ul{
+	padding-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+}
+.menu ul li a{
+	padding-left: 26px;
+	color: #00251A;
+	text-decoration: none;
+}
+.fb{
+	color: #4460a0;
+	border-right: 1PX solid black;
+}
+.twitter{
+	color: #00aaec;
+}
+.banner{
+	background: rgba(0,0,0,0.5);
+	display: flex; 
+	align-items: center;
+	background-image: url(../images/banner_1.png);
+	width: 1002px;
+	height: 346px;
+}
+.banner h2{
+	padding: 168px 0;
+	color: white;
+	text-align: left;
+	font-size: 24px;
+}
+.icon{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+.icon li{
+	text-align: center;
+	padding: 2px 2px;
+	border-radius: 0 0 5px 5px;
+    border: solid rgb(243, 238, 238) 2px;
+}
+.icon li h2{
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+.jQuery p{
+	padding-left: 20px;
+	text-align:left;	
+}
+.jQuery ul {
+	padding-left: 40px;
+    list-style: disc;
+}
+.jQuery li{
+	border: none;
+}
+.title{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 36px;
+	margin-bottom: 25px;
+}
+.tb{
+	margin: 20px;
+    margin: 0 auto;
+    width: 900px;
+    margin-bottom: 50px;
+}
+.gray{
+	background: rgb(225, 225, 225);
+}
+.td th, 
+.tb td{
+	border-top: 1px solid rgb(243, 238, 238);
+    border-bottom: 1px solid rgb(243, 238, 238);
+    padding-left: 30px;
+    text-align: left;
+}
+
+.tb th {
+    padding: 15px 0px;
+    font-weight: bold;
+    padding-left: 30px;
+
+}
+
+.tb td {
+    padding: 15px;
+	color: black;
+}
+
+.tb .special {
+    color: green;
+}
+.connect{
+	background: linear-gradient(#00644b, #009771);
+    width: 1024px;
+    height: 380px;
+    margin-bottom: 15px;
+}
+.connect h2{
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-size: 26px;
+	padding-bottom: 25px;
+}
+.link{
+	display: flex;
+}
+textarea{
+	width: 400px;
+}
+.issue{
+	resize: none;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.imformation label{
+	color: white;
+}
+.imformation input{
+	width: 450px;
+}
+.submit{
+	display: flex; 
+	justify-content: flex-end;
+
+}
+.submit input{
+	cursor: pointer;
+	width: 50px;
+	background-color: rgb(37, 214, 141);
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+.footer a{
+	color: red;
+}
