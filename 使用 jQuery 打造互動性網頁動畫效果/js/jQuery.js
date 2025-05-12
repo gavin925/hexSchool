@@ -1,10 +1,12 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-$('.dropdown').click(function(event){
-  event.preventDefault();
-  $('.dropdown').toggleClass('active');
-  $('.dropdown-open').slideToggle();
+$(document).ready(function() {
+  $('.cart > li > a').click(function(event) {
+    event.preventDefault();
+    $(this).parent().siblings().find('ul').slideUp();
+    $(this).parent().find('ul').slideToggle();
+  });
 });
 
 const swiper = new Swiper('.swiper', {
