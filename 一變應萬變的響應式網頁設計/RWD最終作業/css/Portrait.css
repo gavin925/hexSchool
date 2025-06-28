@@ -52,6 +52,56 @@ img{
     height: auto;
 }
 
+/*   css reset  */
+
+.wrap{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../images/header_desktop.png);
+    height: 420px;
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 42px;
+    background:rgba(0, 0, 0, 0.75)
+
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 17px 30px;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #FFFFFF;
+}
+.banner{
+    text-align: center;
+    background: rgba(0,0,0,0.35);
+    height: 152px;
+    width: 460px;
+    margin: 67px 295px 145PX 294px;
+}
+.banner h1{
+    margin: 20px 42px 16px 22px;
+    font-size: 36px;
+}
+.banner p{
+    font-size:  16px;
+    padding-bottom: 16px;
+    }
 .tableware{
     font-family: FontAwesome;
     font-size: 16px;
