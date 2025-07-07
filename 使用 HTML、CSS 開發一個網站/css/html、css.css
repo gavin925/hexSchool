@@ -47,6 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+
+*, *::before, *::after{ box-sizing: border-box;}
+
 .wrap{
 	margin: 0 auto;
 	width: 1002px;	
