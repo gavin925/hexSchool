@@ -68,13 +68,13 @@ table {
 .fb{
 	color: #4460a0;
 }
-.fb :hover{
+.fb a:hover{
      border-bottom: 2px solid #4460a0;
 }
 .twitter{
 	color: #00aaec;
 }
-.twitter :hover{
+.twitter a:hover{
      border-bottom: 2px solid #00aaec;
 } 
 a{
