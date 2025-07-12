@@ -109,6 +109,28 @@ img{
     font-size: 16px;
     color: #FFFFFF;
 }
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer>li{
+    width: 299px;
+    padding: 10px 5px;
+}
+.footer h2{
+    margin-bottom: 10px;
+}
+.info{
+    list-style: disc;
+}
+.social ul{
+    width: 245px;
+    display: flex;
+    justify-content: flex-end;
+}
+.social ul li{
+    margin-left: 10px;
+}
 .google{
     font-family: FontAwesome;
     font-size: 36px;
