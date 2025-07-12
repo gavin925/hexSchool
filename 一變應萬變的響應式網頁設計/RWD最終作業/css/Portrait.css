@@ -111,6 +111,7 @@ img{
 }
 .footer{
     padding: 50px 0;
+    color: #3D1101;
     background: #efe9e7;
     display: flex;
     justify-content: space-between;
@@ -120,12 +121,14 @@ img{
     padding: 10px 5px;
 }
 .footer h2{
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 .info{
     list-style: disc;
 }
 .social ul{
+    margin-top: 10px;
     width: 245px;
     display: flex;
     justify-content: flex-end;
