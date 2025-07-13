@@ -109,6 +109,44 @@ img{
     font-size: 16px;
     color: #FFFFFF;
 }
+.content{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #efe9e7;
+}
+.content h3{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.log{
+    width: 300px;
+    border-top: #FF5E45 4px solid;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    }
+.log h4{
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.log a{
+    text-decoration: none;
+    color: #FF5E45;
+}
+.signup{
+    margin: 15px;
+    background: #9B9796;
+    width: 118px;
+}
+.signin{
+    margin: 15px;
+    width: 118px;
+    background: #FF5E45;
+}
 .footer{
     padding: 50px 0;
     color: #3D1101;
@@ -150,4 +188,16 @@ img{
     font-family: FontAwesome;
     font-size: 36px;
     color: #3A5795; 
+}
+
+@media (max-width: 768px) {
+  /* 手機樣式 */
+  
+.footer{
+    max-width: 768px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
 }
